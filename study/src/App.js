@@ -7,11 +7,7 @@ const App = () => {
   };
   return (
     <>
-      <input
-        onChange={onChange}
-        placeholder="문자를 입력"
-        value={input}
-      ></input>
+      <input onChange={onChange} placeholder="문자를 입력" value={input} />
       {input}
     </>
   );
